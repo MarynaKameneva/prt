@@ -127,32 +127,32 @@
             </div>
         </section>
 
-        <section id="ba-skills" class="ba-skills">
-            <div class="container ba-skills-wrapper">
-
-                <div class="ba-skills-prof">
-
-                    <h2 class="ba-skills__title">Professional Skills</h2>
-
-                    <div class="ba-skills-procents">
-                        <div class="ba-skills__design wow bounceInLeft">
-                            <p class="ba-skills__postdesc">UI/UX Design<span>75%</span></p>
-                            <div class="ba-skills__procent ba-skills__procent-blue1"></div>
-                        </div>
-                        <div class="ba-skills__webdevelopment wow bounceInLeft delay-1s">
-                            <p class="ba-skills__postdesc">web development<span>95%</span></p>
-                            <div class="ba-skills__procent ba-skills__procent-blue2"></div>
-                        </div>
-                        <div class="ba-skills__marketing wow bounceInLeft delay-2s">
-                            <p class="ba-skills__postdesc">marketing<span>65%</span></p>
-                            <div class="ba-skills__procent ba-skills__procent-blue3"></div>
-                        </div>
-                    </div>
-
-                </div>
-                
-            </div>
-        </section>
+         
+         <!-- Skills -->
+        <section class="skill">
+	        <div class="container">
+		        <div class="skill__inner">
+			        <div class="skill__content">
+				        <h2 class="skill__title">Professional Skills</h2>
+				        <div class="skill__item wow bounceInLeft">
+					        <p class="skill__item__title">UI/UX Design <span class="skill__percent">75%</span></p>
+					        <div class="skill__line line_75"></div>
+				        </div>
+				        <div class="skill__item wow bounceInLeft delay-1s">
+					        <p class="skill__item__title">Web Development <span class="skill__percent">90%</span></p>
+					        <div class="skill__line line_90"></div>
+				        </div>
+				        <div class="skill__item wow bounceInLeft delay-2s">
+					        <p class="skill__item__title">Marketing <span class="skill__percent">65%</span></p>
+					        <div class="skill__line line_65"></div>
+				        </div>
+			        </div>
+			        <div class="skill__photo">
+				        <div class="skill__img"></div>
+			        </div>
+		        </div>
+	        </div><!-- /container -->
+        </section><!-- /skill -->
 
         <section class="ba-numbers">
             <div class="container">
@@ -190,8 +190,8 @@
             </div>
         </section>
 
-        <!-- <section class="ba-works">
-            <div class="ba-works-wrapper">
+        <section class="ba-works">
+            <div class="container ba-works-wrapper">
                 <div class="ba-works__item">
                     <div class="ba-works__overlay"><img src="img/eye.svg" class="ba-works__eye" alt="Eye"></div>
                 </div>
@@ -230,7 +230,7 @@
                 </div>
             </div>
             <button type="button" class="ba-works__btn" aria-label="load-more">Load More works</button>
-        </section> -->
+        </section>
            
         <section class="ba-video">
             <div class="container ba-video-wrapper">
@@ -421,7 +421,7 @@
                         <div class="ba-contact-form__control">
                             <lable for="email" class="ba-contact-form__label"></lable>
                             <input type="email" id="email" class="ba-contact-form__email" required placeholder="Email address" 
-                            pattern="[a-z0-9._%-]@[a-z0-9.-]\.[a-z]{2,}$">
+                            pattern="(?!test@test\.com$)[a-z0-9._%+-]{3,}@[a-z]{3,}\.[a-z]{2,}(?:\.[a-z]{2,})?">
                         </div>
             
                         <div class="ba-contact-form__control">
@@ -469,7 +469,7 @@
                 </div>
                 <div class="ba-footer-social">
                     <ul class="ba-footer-list">
-                        <li class="ba-footer__item"><a class="ba-footer__link" href="https://uk-ua.facebook.com/">Facebook</a></
+                        <li class="ba-footer__item"><a class="ba-footer__link" href="https://uk-ua.facebook.com/">Facebook</a></li>
                         <li class="ba-footer__item"><a class="ba-footer__link" href="https://twitter.com/?lang=ru">Twitter</a></li>
                         <li class="ba-footer__item"><a class="ba-footer__link" href="https://www.instagram.com/?hl=ru">Instagram</a></li>
                         <li class="ba-footer__item"><a class="ba-footer__link" href="https://dribbble.com/">Dribbble</a></li>                                                                                                                                                                                
@@ -507,13 +507,13 @@
     
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
-    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
 
-    <script src="js/app.js"></script>
+    <script type="" src="js/app.js"></script>
     
 </body>
 </html>

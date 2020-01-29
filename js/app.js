@@ -11,27 +11,31 @@ $(document).ready(function () {
     function parallax(){
         let scrolled = $(window).scrollTop();
 
-        if ($(window).width() >= 1200 ) {
-            $('#ba-skills').css('background-position', '0 '+(scrolled*1.2+300)+'px');
+        /* if ($(window).width() >= 1200 ) {
+            $('.skill__img').css('background-position', '0 '+(scrolled*1.2+300)+'px');
         };
         if ($(window).width() <= 1199 && $(window).width() >= 1024) {
-          $('#ba-skills').css('background-position', '0 '+(scrolled*1.2+100)+'px');
+          $('.skill__img').css('background-position', '0 '+(scrolled*1.2+100)+'px');
         };
         if ($(window).width() <= 1023 && $(window).width() >= 768) {
-            $('#ba-skills').css('background-position', '0 '+(scrolled*1.1+300)+'px');
+            $('.skill__img').css('background-position', '0 '+(scrolled*1.1+300)+'px');
         };
         if ($(window).width() <= 767 && $(window).width() >= 540) {
-            $('#ba-skills').css('background-position', '0 '+(scrolled*1.2+100)+'px');
+            $('.skill__img').css('background-position', '0 '+(scrolled*1.2+100)+'px');
         };
         if ($(window).width() <= 539 && $(window).width() >= 375) {
-            $('#ba-skills').css('background-position', '0 '+(scrolled*1.3-150)+'px');
+            $('.skill__img').css('background-position', '0 '+(scrolled*1.3-150)+'px');
         };
         if ($(window).width() <= 374) {
-            $('#ba-skills').css('background-position', '0 '+(scrolled*1.2-120)+'px');
+            $('.skill__img').css('background-position', '0 '+(scrolled*1.2-120)+'px');
         };
         if ($(window).width() <= 320) {
-            $('#ba-skills').css('background-position', '0 '+(scrolled*1)+'px');
-        };
+            $('.skill__img').css('background-position', '0 '+(scrolled*1)+'px');
+        }; */
+        //$('.skill__inner').css('background-position', '0 '+(-scrolled*0.2)+'px')
+
+            
+        
     };
 
     $('.ba-slider-wrapper').slick({
