@@ -1,0 +1,7 @@
+.ba-aboutus {
+  padding: 20px 0 50px; }
+  .ba-aboutus .ba-contact-form__submit {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center; }
